@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nilufar Ziyomiddinova - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+    }
+    header {
+      background-color: #ff7f50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ff6347;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #ff7f50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nilufar Ziyomiddinova</h1>
+    <p>Portfolio Sayti</p>
+  </header>  <nav>
+    <a href="#about">Men haqimda</a>
+    <a href="#projects">Loyihalar</a>
+    <a href="#contact">Bog'lanish</a>
+  </nav>  <section id="about">
+    <h2>Men haqimda</h2>
+    <p>Salom! Men Nilufar Ziyomiddinova, ijodkor va zamonaviy texnologiyalar bilan ishlashni yoqtiraman. Bu sahifada mening ishlarim bilan tanishishingiz mumkin.</p>
+  </section>  <section id="projects">
+    <h2>Loyihalar</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Loyiha 1</h3>
+        <p>Bu loyiha haqida qisqacha ma'lumot.</p>
+      </div>
+      <div class="card">
+        <h3>Loyiha 2</h3>
+        <p>Boshqa bir ajoyib loyiha tavsifi.</p>
+      </div>
+      <!-- Yana loyihalar qo'shishingiz mumkin -->
+    </div>
+  </section>  <section id="contact">
+    <h2>Bog'lanish</h2>
+    <p>Email: nilufar@example.com</p>
+    <p>Telefon: +998 90 123 45 67</p>
+  </section>  <footer>
+    <p>&copy; 2025 Nilufar Ziyomiddinova</p>
+  </footer>
+</body>
+</html>
